@@ -20,11 +20,13 @@ Protein:
 # Uncertainty Prediction
 - Install ```chemprop```: https://github.com/chemprop/chemprop
 - ```cd uncertainty```
-- Train surrogate models: ./train_surrogates.sh [datasetName] [property]
+- Train surrogate models: ```./train_surrogates.sh [datasetName] [property]```
 
-# Pre-train Diffusion Models
-- 
-
+# Diffusion Models
+- ```cd scripts```
+- Train diffusion models: ```./a_run_zz_train.sh [dataset] [removeH] [batchsize] [n_layers] [nf] [n_epoch] [CUDA_DEVICES] [properties]```
+- Optimize diffusion models: ```././a_run_zz_optimize.sh```
+- Generate molecules and evaluate: ```./a_run_zz_evaluate.sh [exp_name]```
 
 
 
