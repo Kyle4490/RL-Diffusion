@@ -17,8 +17,13 @@ Molecules (download molecular data in sdf format):
 Protein:
 - 6VHN: https://www.rcsb.org/structure/6VHN
 
+# Uncertainty Prediction
+- Install ```chemprop```: https://github.com/chemprop/chemprop
+- ```cd uncertainty```
+- Train surrogate models: ./train_surrogates.sh [datasetName] [property]
 
-
+# Pre-train Diffusion Models
+- 
 
 
 
