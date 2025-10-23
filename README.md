@@ -25,7 +25,7 @@ Protein:
 # Diffusion Models
 - ```cd scripts```
 - Train diffusion models: ```./a_run_zz_train.sh [dataset] [removeH] [batchsize] [n_layers] [nf] [n_epoch] [CUDA_DEVICES] [properties]```
-- Optimize diffusion models: ```././a_run_zz_optimize.sh```
+- Optimize diffusion models: ```./a_run_zz_optimize.sh```
 - Generate molecules and evaluate: ```./a_run_zz_evaluate.sh [exp_name]```
 
 
