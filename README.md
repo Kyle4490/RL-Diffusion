@@ -10,12 +10,12 @@ This repository provides the source codes associated with the paper Uncertainty-
 
 # Data Source
 Molecules (download molecular data in sdf format):
-QM9: http://deepchem.io.s3-website-us-west-1.amazonaws.com/datasets/gdb9.tar.gz
-ZINC15: https://zinc15.docking.org/tranches/home/#
-PubChem: https://pubchem.ncbi.nlm.nih.gov/#query=small%20molecule&tab=compound
+- QM9: http://deepchem.io.s3-website-us-west-1.amazonaws.com/datasets/gdb9.tar.gz
+- ZINC15: https://zinc15.docking.org/tranches/home/#
+- PubChem: https://pubchem.ncbi.nlm.nih.gov/#query=small%20molecule&tab=compound
 
 Protein:
-6VHN: https://www.rcsb.org/structure/6VHN
+- 6VHN: https://www.rcsb.org/structure/6VHN
 
 
 
